@@ -1,6 +1,6 @@
 # qzind-tray-1526
 
-This template should help get you started developing with Vue 3 in Vite.
+This project demonstrates the issue reported in `qz-tray/tray` [#1526](https://github.com/qzind/tray/issues/1526). Please run the project (dev or build) to experience the demonstration.
 
 ## Recommended IDE Setup
 
