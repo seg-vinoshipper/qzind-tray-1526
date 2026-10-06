@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import qz from 'qz-tray'
+import 'qz-lna'
 
 import imgConsole from '@/images/lna-library-error.png'
 
