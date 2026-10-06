@@ -53,6 +53,34 @@ function doConnection () {
       </ul>
     </li>
   </ul>
+  <h3>
+    Modifications for 2026.10.06 Build
+  </h3>
+  <ul>
+    <li>
+      Added <code>qz-lna</code> package.
+    </li>
+    <li>
+      Added <code>import 'qz-lna'</code> to file `~/src/stage-file.vue`
+    </li>
+    <li>
+      <strong>MANUALLY CHANGE <code>~/node_modules/qz-tray/qz-tray.js</code>:</strong>
+      <ul>
+        <li>
+          136: <code>_qz.log.trace("Connecting with qz-lna.js");</code>
+        </li>
+        <li>
+          142: <code>_qz.log.trace("Connecting with qz-lna.js");</code>
+        </li>
+        <li>
+          757: <code>return require('qz-lna');</code>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <em>You must</em> restart an <code>npm run *</code> command when making changes to a file in <code>~/node_modules/</code>
+    </li>
+  </ul>
   <h2>
     Demonstration of Issue
   </h2>
